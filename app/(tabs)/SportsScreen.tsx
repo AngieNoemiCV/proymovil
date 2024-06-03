@@ -56,14 +56,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#E0F7FA", // Fondo cálido y brillante
+    backgroundColor: "#E0F7FA",
   },
   title: {
-    fontSize: 28, // Tamaño de fuente más grande
+    fontSize: 28,
     fontWeight: "bold",
     marginBottom: 20,
     textAlign: "center",
-    color: "#FF6347", // Color de título brillante y alegre
+    color: "#FF6347", 
   },
   table: {
     marginTop: 10,
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     padding: 15,
     backgroundColor: "#FFFFFF",
-    borderRadius: 15, // Bordes más redondeados
+    borderRadius: 15, 
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
@@ -80,11 +80,11 @@ const styles = StyleSheet.create({
     elevation: 5,
   },
   levelTitle: {
-    fontSize: 22, // Tamaño de fuente más grande
+    fontSize: 22, 
     fontWeight: "bold",
     marginBottom: 10,
-    color: "#FF4500", // Color vibrante
-    textAlign: "center", // Centramos el texto
+    color: "#FF4500", 
+    textAlign: "center", 
   },
   trophiesRow: {
     flexDirection: "row",
@@ -95,12 +95,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   trophyImage: {
-    width: 60, // Tamaño de trofeo más grande
+    width: 60, 
     height: 60,
     marginBottom: 5,
   },
   topicName: {
-    fontSize: 16, // Tamaño de fuente más grande
+    fontSize: 16, 
     textAlign: "center",
     color: "#333",
   },

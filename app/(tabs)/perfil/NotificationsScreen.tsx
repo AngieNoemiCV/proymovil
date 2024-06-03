@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#E0F7FA', // Color de fondo más claro
+    backgroundColor: '#E0F7FA', 
     padding: 20,
   },
   imagen: {
@@ -33,7 +33,6 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     marginLeft: 30,
     marginRight: 30,
-    color: '#ff4500', // Color de texto llamativo
-    fontFamily: 'Comic Sans MS', // Fuente amigable
+    color: '#ff4500', 
   },
 });

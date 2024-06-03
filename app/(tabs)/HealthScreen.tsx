@@ -59,14 +59,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#E0F7FA', // Color de fondo más cálido
+    backgroundColor: '#E0F7FA', 
   },
   title: {
     fontSize: 26,
     fontWeight: 'bold',
     marginBottom: 15,
     textAlign: 'center',
-    color: '#FF6347', // Color de título vibrante
+    color: '#FF6347',
   },
   top3Container: {
     flexDirection: 'row',
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   },
   playerCard: {
     alignItems: 'center',
-    backgroundColor: '#FFFACD', // Fondo amarillo suave
+    backgroundColor: '#FFFACD', 
     padding: 10,
     borderRadius: 15,
     shadowColor: '#000',
@@ -90,16 +90,16 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     marginBottom: 10,
     borderWidth: 3,
-    borderColor: '#FF6347', // Borde del avatar color vibrante
+    borderColor: '#FF6347', 
   },
   playerName: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#4682B4', // Color azul vibrante
+    color: '#4682B4',
   },
   playerScore: {
     fontSize: 16,
-    color: '#32CD32', // Color verde vibrante
+    color: '#32CD32', 
   },
   table: {
     marginTop: 10,
@@ -110,17 +110,17 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 10,
     borderBottomWidth: 1,
-    borderBottomColor: '#FFD700', // Color dorado suave
-    backgroundColor: '#FFF8DC', // Fondo beige suave
+    borderBottomColor: '#FFD700', 
+    backgroundColor: '#FFF8DC', 
     borderRadius: 10,
     marginBottom: 5,
   },
   tableCell: {
     fontSize: 16,
-    color: '#8A2BE2', // Color púrpura vibrante
+    color: '#8A2BE2', 
   },
   button: {
-    backgroundColor: '#FF69B4', // Color rosa brillante
+    backgroundColor: '#FF69B4', 
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 20,
@@ -130,6 +130,6 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 16,
     fontWeight: 'bold',
-    color: '#FFFFFF', // Texto blanco para contraste
+    color: '#FFFFFF', 
   },
 });

@@ -1,4 +1,3 @@
-// screens/ForumScreen.js
 import { ObtenerSesion } from "@/utils/login";
 import { supabase } from "@/utils/supabase";
 import React, { useEffect, useState } from "react";
@@ -78,7 +77,7 @@ const POST = ({ item, calback }: { item: any; calback: () => void }) => {
       {
         user: user,
         content: newComment,
-        fk_foro: postId, // Asegúrate de que este ID existe en la tabla `foro`
+        fk_foro: postId, 
       },
     ]);
     console.log(error);
@@ -128,14 +127,14 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: "#E0F7FA", // Fondo cálido y brillante
+    backgroundColor: "#E0F7FA", 
   },
   title: {
-    fontSize: 28, // Tamaño de fuente más grande
+    fontSize: 28, 
     fontWeight: "bold",
     marginBottom: 20,
     textAlign: "center",
-    color: "#FF6347", // Color de título brillante y alegre
+    color: "#FF6347",
   },
   forum: {
     marginTop: 10,
@@ -144,7 +143,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
     padding: 20,
     marginBottom: 15,
-    borderRadius: 15, // Bordes más redondeados
+    borderRadius: 15, 
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
@@ -154,18 +153,18 @@ const styles = StyleSheet.create({
   postHeader: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 15, // Mayor separación
+    marginBottom: 15, 
   },
   avatar: {
-    width: 50, // Tamaño de avatar más grande
+    width: 50, 
     height: 50,
     borderRadius: 25,
-    marginRight: 15, // Mayor separación del texto
+    marginRight: 15, 
   },
   userName: {
-    fontSize: 18, // Tamaño de fuente más grande
+    fontSize: 18, 
     fontWeight: "bold",
-    color: "#FF4500", // Color vibrante
+    color: "#FF4500", 
   },
   postContent: {
     fontSize: 16,
@@ -175,28 +174,28 @@ const styles = StyleSheet.create({
   reactionsContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginBottom: 15, // Mayor separación
+    marginBottom: 15, 
   },
   reactionButton: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#ADD8E6", // Color de fondo brillante
-    padding: 10, // Mayor padding
-    borderRadius: 10, // Bordes más redondeados
+    backgroundColor: "#ADD8E6", 
+    padding: 10, 
+    borderRadius: 10, 
   },
   commentButton: {
     flexDirection: "row",
     alignItems: "center",
-    backgroundColor: "#ADD8E6", // Color de fondo brillante
-    padding: 10, // Mayor padding
-    borderRadius: 10, // Bordes más redondeados
+    backgroundColor: "#ADD8E6", 
+    padding: 10, 
+    borderRadius: 10, 
   },
   commentsContainer: {
-    marginTop: 20, // Mayor separación
+    marginTop: 20, 
   },
   comment: {
     flexDirection: "row",
-    marginBottom: 10, // Mayor separación
+    marginBottom: 10, 
   },
   commentUser: {
     fontWeight: "bold",
@@ -211,20 +210,20 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "#CCC",
     borderRadius: 10,
-    padding: 15, // Mayor padding
+    padding: 15, 
     marginBottom: 10,
     backgroundColor: "#FFF",
   },
   submitButton: {
-    backgroundColor: "#FF69B4", // Color de fondo brillante
-    paddingVertical: 12, // Mayor padding vertical
-    paddingHorizontal: 25, // Mayor padding horizontal
-    borderRadius: 15, // Bordes más redondeados
+    backgroundColor: "#FF69B4", 
+    paddingVertical: 12, 
+    paddingHorizontal: 25, 
+    borderRadius: 15, 
     alignItems: "center",
   },
   submitButtonText: {
     color: "#FFF",
     fontWeight: "bold",
-    fontSize: 16, // Tamaño de fuente mayor
+    fontSize: 16, 
   },
 });

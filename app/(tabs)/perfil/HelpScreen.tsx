@@ -1,4 +1,3 @@
-// screens/Help.js
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, Image } from 'react-native';
 
@@ -50,7 +49,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#E0F7FA', // Color de fondo más claro y amigable
+    backgroundColor: '#E0F7FA', 
   },
   banner: {
     width: '100%',
@@ -58,7 +57,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   faqContainer: {
-    backgroundColor: '#ffebcd', // Color de fondo suave para cada pregunta
+    backgroundColor: '#ffebcd', 
     padding: 15,
     borderRadius: 10,
     marginBottom: 20,
@@ -66,17 +65,17 @@ const styles = StyleSheet.create({
   question: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: '#ff6347', // Color llamativo para la pregunta
+    color: '#ff6347', 
     marginBottom: 5,
   },
   answer: {
     fontSize: 18,
-    color: '#000000', // Color agradable para la respuesta
+    color: '#000000', 
   },
   sectionTitle: {
     fontSize: 22,
     fontWeight: 'bold',
-    color: '#ff4500', // Color destacado para el título de la sección
+    color: '#ff4500', 
     marginTop: 20,
     textAlign: 'center',
   },
